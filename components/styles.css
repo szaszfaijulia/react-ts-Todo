@@ -55,10 +55,12 @@
 .todos {
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  width: 47.5%;
-  padding: 15px;
-  background-color: rgb(50, 195, 205);
+  /*flex-direction: column;*/
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /*padding: 15px;*/
+  /*background-color: rgb(50, 195, 205);*/
 }
 
 .dragactive {
